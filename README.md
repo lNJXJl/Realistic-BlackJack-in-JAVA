@@ -72,28 +72,24 @@ W trakcie gry
 455 - [CHEAT] pokaż liczbę kart w talii
 0. Wyjdź - tylko po zakończeniu rundy
 
-Przykład rozgrywki
+**Przykład rozgrywki**
 
 Nowa partia
 Aktualny balans: 100
 Podaj zakład: 
 100
 ALL IN!
---Menu gry--
+Menu gry
 Karta Dealera 9 (Red) Hearts (♥)
---------------
 1. 7 (Black) Clubs (♣)
 2. K (Black) Clubs (♣)
 Wartość Ręki: 17
---------------
 1. HIT
 2. STAND
---------------
 Dobrano: 2 karty
 Balans: 0
 Zakład: 100
 0. Wyjdź
---------------
 2
 Wstrzymano się
 Dealer Rozpoczyna Gre
