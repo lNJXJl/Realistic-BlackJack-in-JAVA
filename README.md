@@ -72,56 +72,6 @@ W trakcie gry
 455 - [CHEAT] pokaż liczbę kart w talii
 0. Wyjdź - tylko po zakończeniu rundy
 
-**Przykład rozgrywki**
-
-Nowa partia
-Aktualny balans: 100
-Podaj zakład: 
-100
-ALL IN!
-Menu gry
-Karta Dealera 9 (Red) Hearts (♥)
-1. 7 (Black) Clubs (♣)
-2. K (Black) Clubs (♣)
-Wartość Ręki: 17
-1. HIT
-2. STAND
-Dobrano: 2 karty
-Balans: 0
-Zakład: 100
-0. Wyjdź
-2
-Wstrzymano się
-Dealer Rozpoczyna Gre
-Dealer odsłania zakrytą kartę: 4 (Black) Clubs (♣)
-Dealer dobiera kartę: 9 (Red) Diamonds (♦)
-Wartość ręki dealera: 22
-Dealer Busted!
-Karty Dealera: 
-1. 9 (Red) Hearts (♥)
-2. 4 (Black) Clubs (♣)
-3. 9 (Red) Diamonds (♦)
-Gracz wygrywa - dealer ma bust!
-Dealer kończy z wartością: 22
-Wygrałeś 100. Posiadasz teraz: 200
-Nowa partia
-Aktualny balans: 200
-Podaj zakład:
-
-**Techniczne szczegóły**
-
-Język: Java 17
-Architektura: Obiektowa z separacją odpowiedzialności
-Zarządzanie pamięcią: Automatyczne czyszczenie po każdej rundzie
-Obsługa błędów: Walidacja danych wejściowych i zabezpieczenia
-
-**Funkcje deweloperskie**
-Dev Menu umożliwia:
-
-- Podgląd całej talii
-- Losowanie pojedynczych kart
-- Reset talii
-- Testowanie systemu ręki z oddzielnym budżetem
 
 Autor NJXJ
 Projekt stworzony jako nauka programowania obiektowego w Javie w wolnym czasie.
