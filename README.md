@@ -1,6 +1,7 @@
 # Realistic-BlackJack-in-JAVA
-Konsolowa implementacja gry BlackJack napisana w języku Java z pełną funkcjonalnością i systemem zarządzania pieniędzmi.
+Konsolowa implementacja gry BlackJack napisana w języku Java z pełną funkcjonalnością, systemem zarządzania pieniędzmi oraz systemem zapisu stanu gry.
 --Funkcjonalności--
+
 **Podstawowa mechanika gry**
 - Pełna implementacja BlackJack zgodna z oficjalnymi zasadami
 - Inteligentny system Asów automatyczne dostosowywanie wartości (11 lub 1)
@@ -8,6 +9,7 @@ Konsolowa implementacja gry BlackJack napisana w języku Java z pełną funkcjon
 - Detekcja bust dla gracza i dealera
 - System remisów z automatycznym zwrotem stawki
 - Zarządzanie Talią od 52 kart do 0
+- Opcja zapisu stanu gry jak i usuniecia
 
 **System pieniędzy**
 - Zarządzanie budżetem startowy kapitał 100 jednostek
@@ -19,7 +21,7 @@ Konsolowa implementacja gry BlackJack napisana w języku Java z pełną funkcjon
 - Automatyczne tasowanie gdy skończą się karty w talii
 - Polskie teksty poprawna odmiana słowa "karta"
 - Dev Menu narzędzia deweloperskie do testowania
-- Kody cheatów do podglądania kart dealera (444, 455)
+- Kody cheatów do podglądania kart dealera (444, 455, 400)
 
 **Jak uruchomić**
 
@@ -36,7 +38,7 @@ bashjava -cp out Main
 - Lub pobierz projekt i odpal w terminalu IDE.
 **Zasady gry**
 
-Cel gry: Osiągnij wartość jak najbliższą 21, nie przekraczając jej
+Cel gry: Osiągnij wartość jak najbliższą 21, nie przekraczając jej, oraz posiadajac wartość większa niż krupier.
 
 Wartości kart:
 - Karty 2-10: wartość nominalna
@@ -70,4 +72,4 @@ Projekt stworzony jako nauka programowania obiektowego w Javie w wolnym czasie.
 Gra wymaga wprowadzania liczb z klawiatury
 Wszystkie komunikaty w języku polskim
 Automatyczne zabezpieczenia przed nieprawidłowymi ruchami
-System anti-rage quit - nie można wyjść w trakcie rundy
+Program tworzy plik zapisu save.txt w folderze gry
