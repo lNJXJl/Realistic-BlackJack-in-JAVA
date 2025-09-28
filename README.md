@@ -25,16 +25,16 @@ Konsolowa implementacja gry BlackJack napisana w języku Java z pełną funkcjon
 
 **Jak uruchomić**
 
-- Sklonuj repozytorium:
-gh repo clone lNJXJl/Realistic-BlackJack-in-JAVA
+ Sklonuj repozytorium:
+- gh repo clone lNJXJl/Realistic-BlackJack-in-JAVA
 
-- Skompiluj projekt:
+Skompiluj projekt:
 
-cd ..\Realistic Black Jack JAVA\src
-javac -d ../out *.java Engine\*.java
+- cd ..\Realistic Black Jack JAVA\src
+- javac -d ../out *.java Engine\*.java
 
-- Uruchom grę:
-java -cp ../out Main
+Uruchom grę:
+- java -cp ../out Main
 
 - Lub pobierz projekt i odpal w terminalu IDE.
   
