@@ -2,24 +2,24 @@
 Konsolowa implementacja gry BlackJack napisana w języku Java z pełną funkcjonalnością i systemem zarządzania pieniędzmi.
 --Funkcjonalności--
 **Podstawowa mechanika gry**
-- Pełna implementacja BlackJack - zgodna z oficjalnymi zasadami
-- Inteligentny system Asów - automatyczne dostosowywanie wartości (11 lub 1)
-- Logika dealera - dealer dobiera do wartości 17
-- Detekcja bust - dla gracza i dealera
-- System remisów - z automatycznym zwrotem stawki
+- Pełna implementacja BlackJack zgodna z oficjalnymi zasadami
+- Inteligentny system Asów automatyczne dostosowywanie wartości (11 lub 1)
+- Logika dealera dealer dobiera do wartości 17
+- Detekcja bust dla gracza i dealera
+- System remisów z automatycznym zwrotem stawki
 - Zarządzanie Talią od 52 kart do 0
 
 **System pieniędzy**
-Zarządzanie budżetem - startowy kapitał 100 jednostek
-System obstawiania - walidacja stawek
-Wypłaty wygranych - 1:1 dla standardowych wygranych
-Zabezpieczenie ALL-IN - ochrona przed wczesnym opuszczeniem gry
+- Zarządzanie budżetem startowy kapitał 100 jednostek
+- System obstawiania walidacja stawek
+- Wypłaty wygranych 1:1 dla standardowych wygranych
+- Zabezpieczenie ALL-IN ochrona przed wczesnym opuszczeniem gry
 
 **Dodatkowe funkcje**
-Automatyczne tasowanie - gdy skończą się karty w talii
-Polskie teksty - poprawna odmiana słowa "karta"
-Dev Menu - narzędzia deweloperskie do testowania
-Kody cheatów - do podglądania kart dealera (444, 455)
+- Automatyczne tasowanie gdy skończą się karty w talii
+- Polskie teksty poprawna odmiana słowa "karta"
+- Dev Menu narzędzia deweloperskie do testowania
+- Kody cheatów do podglądania kart dealera (444, 455)
 
 **Jak uruchomić**
 
@@ -39,9 +39,9 @@ bashjava -cp out Main
 Cel gry: Osiągnij wartość jak najbliższą 21, nie przekraczając jej
 
 Wartości kart:
-Karty 2-10: wartość nominalna
-Figury (J, Q, K): 10 punktów
-As: 11 lub 1 (automatycznie dostosowywane)
+- Karty 2-10: wartość nominalna
+- Figury (J, Q, K): 10 punktów
+- As: 11 lub 1 (automatycznie dostosowywane)
 
 
 Dealer: Dobiera do 17, potem stoi
