@@ -30,12 +30,14 @@ gh repo clone lNJXJl/Realistic-BlackJack-in-JAVA
 
 - Skompiluj projekt:
 
-bashjavac -d out src/Main.java src/Engine/*.java
+cd ..\Realistic Black Jack JAVA\src
+javac -d ../out *.java Engine\*.java
 
 - Uruchom grę:
-bashjava -cp out Main
+java -cp ../out Main
 
 - Lub pobierz projekt i odpal w terminalu IDE.
+  
 **Zasady gry**
 
 Cel gry: Osiągnij wartość jak najbliższą 21, nie przekraczając jej, oraz posiadajac wartość większa niż krupier.
