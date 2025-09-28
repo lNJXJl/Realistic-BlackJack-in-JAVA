@@ -21,16 +21,6 @@ Polskie teksty - poprawna odmiana słowa "karta"
 Dev Menu - narzędzia deweloperskie do testowania
 Kody cheatów - do podglądania kart dealera (444, 455)
 
-Struktura projektu
-src/
-├── Main.java
-└── Engine/
-    ├── Cards.java      # Klasa karty z wartościami BlackJack
-    ├── Deck.java       # Zarządzanie talią (52 karty)
-    ├── Hand.java       # Logika gracza i rozgrywki
-    ├── Dealer.java     # Sztuczna inteligencja dealera
-    └── Money.java      # System finansowy
-    
 **Jak uruchomić**
 
 - Sklonuj repozytorium:
